@@ -1,0 +1,264 @@
+body{
+	/*消除固定宽度*/
+	margin:0;
+	/*如果引入container居中布局,居中的最小宽度*/
+	min-width: 980px;
+	font-family: arial;
+}
+h1,h2,h3,h4,h5,h6,ul,p{
+	margin:0;
+	padding:0;
+	/*使用ul和li时去掉前面的小圆点*/
+	list-style: none;
+}
+.section{
+	padding:80px 0;
+	 /* text-align: center;*/
+	border-bottom:1px solid #e5e5e5;
+}
+.container{
+	margin:0 auto;
+	width:980px;
+	/*border:2px solid black;*/
+}
+.header{
+	padding:15px 0;
+	/*border:1px solid red;*/
+	background-color: #f5f5f5;
+}
+.hd-c{
+	height:28px;
+	line-height: 28px;
+}
+.logo{
+	font-size:32px;
+	float: left;
+	font-weight: bold;
+	margin-right:20px;
+}
+.search{
+	width: 270px;
+	height: 22px;
+	padding:2px;
+	border:1px solid #ccc;
+	  border-radius: 3px;
+	    font-size: 13px;
+	    color:#ccc;
+  font-weight: normal;
+  	float: left;
+	background-color: #fff;
+		line-height: 22px;
+}
+.functionlist{
+	float: left;
+	font-weight: bold;
+}
+.functionlist li{
+	float: left;
+	margin:0 6px ;
+}
+.signin,.signup{
+	float:right;
+	font-size: 13px;
+	padding:6px 12px;
+	border-radius: 10px;
+	/*border-radius: 1px solid #ccc;*/
+	line-height:15px;
+	margin-left:5px;
+	margin-top:-6px;
+}
+.signup{
+  color: #fff;
+  background-color: #60b044;
+  background-image: linear-gradient(#8add6d, #60b044);
+  border-color: #5ca941;
+}
+.signin{
+	 font-color:black;
+  background-image: linear-gradient(#eee, #ddd);
+  border-color: #ccc;
+  background-color: #ddd;
+}
+.section.down {
+  text-align: center;
+}
+.sub-title{
+	font-size:42px;
+	text-align:center;
+	color:#333;
+	/*字体由粗体变为正常.*/
+	font-weight: normal;
+}
+.sub-info{
+	font-size:18px;
+	color:#767676;
+	text-align: center;
+	margin-top:10px;
+}
+.you{
+	  font-size: 21px;
+  font-weight: normal;
+    margin-top: 15px;
+  margin-bottom: 15px;
+    padding-top: 15px;
+  padding-bottom: 30px;
+    text-align: center;
+  font-size: 21px;
+  line-height: 1.5;
+
+}
+.gh-image{
+	width:100%;
+	margin-top:30px;
+}
+.enterprise{
+	margin-top:-1px;
+	background-image: linear-gradient(#202d5f,#614381);
+}
+/*后代选择器*/
+.enterprise h2{
+	color:#f5f5f5;
+}
+.want{
+	overflow: hidden;
+	height:375px;
+	  text-align: center;
+}
+
+.main{
+	background:#202020;
+}
+/*TODO:待优化*/
+.main-c{
+	height: 310px;
+	padding:80px auto;
+}
+.main-intro{
+	color:#f5f5f5;
+	/*border:1px solid red;*/
+	width: 580px;
+	float:left;
+	font-family: arial;
+}
+.main-intro p{
+	font-size:20px;
+	padding-top:10px;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+.big-title{
+	font-size:70px;
+	padding-top:10px;
+	margin-bottom: 15px;
+	font-weight: normal;
+	}
+	.signup-form p{
+	font-size:10px;
+	font-weight: normal;
+	color:white;
+}
+.bk{
+	font-size:16px;
+	height:24px;
+	color:#ccc;
+	border:1px solid white;
+	margin-bottom:15px;
+	border-radius: 6px;
+	padding:15px 30px 10px 10px;
+	background-color: white;
+}
+.btn-green{
+	color:#f5f5f5;
+	/*width:281px;*/
+	margin:15px auto;
+	display: inline-block;
+	background-image: linear-gradient(#8add6d, #60b044);
+}
+.btn.btn-green.first {
+  width: 280px;
+}
+.signup-form{
+	width: 320px;
+	height: 351px;
+/*	border:1px solid white;*/
+	float:right;
+	
+	margin-left:20px;
+}
+.signup-form p{
+	font-size:13px;
+	font-family: arial;
+	color:#A9A9A9;
+	margin-top:5px;
+	font-family: arial;
+	font-weight: normal;
+}
+.btn{
+	text-align:center;
+	padding:12px 20px;
+	font-size:18px;
+	border-radius: 6px;
+	/*border:1px solid white;*/
+}
+.btn-blue{
+	color:#f5f5f5;
+	width: 346px;
+	margin:12px auto;
+	display: inline-block;
+	background-image: linear-gradient(#45b3f3, #1d6ac8);
+}
+.gh-image{
+	margin-top:40px;
+}
+.love{
+	height: 700px;
+	/*clear:both;*/
+}
+.love-reason{
+	width: 450px;
+	float: left;
+	font-size:16px;
+	 text-align: center;
+	 font-weight: normal;
+	 color:#5a5a5a;
+    line-height: 1.5;
+    margin-top: -5px;
+    padding:50px 20px 50px 20px;
+}
+.love-reason h3{
+	font-size:16px;
+	 text-align: center;
+}
+.l-imag{
+	width: 100px;
+	height: 100px;
+/*	border: 1px solid black;*/
+	margin:20px auto 50px auto;
+	border-radius: 50px;
+}
+
+.weiye{
+	height:28px;
+	line-height: 28px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 12px;
+  color: #767676;
+  position: relative;
+}
+.la1 li{
+	float:left;
+	margin-left:10px;
+}
+.la2 li{
+	float:right;
+	margin-left:10px;
+}
+.mao{
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	position: absolute;
+	top:40px;
+	right:477px;
+}
